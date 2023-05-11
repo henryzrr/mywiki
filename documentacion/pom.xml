@@ -2,22 +2,22 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>mywiki</artifactId>
+        <groupId>bo.henryzr</groupId>
+        <version>1.0.0</version>
+    </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>bo.henryzr</groupId>
-    <artifactId>mywiki</artifactId>
-    <version>1.0.0</version>
+    <artifactId>documentacion</artifactId>
     <packaging>pom</packaging>
-    <name>mywiki</name>
+    <modules>
+        <module>docker</module>
+    </modules>
 
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
         <maven.compiler.target>8</maven.compiler.target>
     </properties>
-
-    <modules>
-        <module>testing</module>
-        <module>documentacion</module>
-    </modules>
 
 </project>
