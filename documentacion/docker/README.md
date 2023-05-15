@@ -44,3 +44,4 @@ Este es un repo con imagenes oficiales link: [https://hub.docker.com/](https://h
 * **sudo docker exec -it postgres13 ash** -> ingresa a la consola alphine del SO
 * **sudo docker cp** -> copia archivos al SO que contiene 
 * **sudo systemctl start docker** -> inicia docker en caso de que no se haya activado el demonio 
+* **sudo docker container ls --all** -> lista todos los contenedores, incluidos los que no estan en ejecución.
